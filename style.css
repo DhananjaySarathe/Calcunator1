@@ -1,0 +1,123 @@
+*{
+    background-color: #070070;
+background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.dice{
+    background-color: rgb(141, 9, 9);
+    display:inline;
+    margin: 2%;
+    width: fit-content;
+    height: fit-content;
+}
+
+.big{
+    margin-top: 1.5rem;
+    height: 12%;
+    width: 12%;
+}
+.small{
+    height: 9%;
+    width: 9%;
+}
+
+.DiceBoard{
+    margin-top: 2rem;
+    border: 2px solid black;
+}
+
+.Btnroll{
+    border: 5px solid black;
+    text-align: center;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    font-size: 55px;
+    height: 6%;
+    width:  15%;
+    background-color: #00364a;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+}
+
+.Boxx{
+    display:inline-block;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.3rem;
+    font-weight:800;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    padding: 2.9%;
+    border: 2px solid black;
+}
+
+.Row{
+    margin-right:0rem;
+    margin-left: 1rem;
+}
+
+.p1{
+    text-align: center;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    padding: 3%;
+    height: 1.5rem;
+    width: 1.5rem;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.p2{
+    margin-left: 2%;
+    margin-bottom: 2%;
+    display:inline-block;
+    padding: 3%;
+    background-color:rgb(255, 0, 0);
+    height: 1.5rem;
+    width: 1.5rem;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.clicked{
+    background-color: rgb(60, 73, 192);
+}
+
+.mix{
+    background-color: black;
+}
+
+.infoRow{
+    margin: 5%;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border: 2px solid black;
+    padding-left: 2%;
+    padding-right: 2%;
+    float: right;
+}
+.playerInfo{
+    background-color: #65aec8;
+}
+
+
+    .Bp1{
+    background-color: darkgreen;
+    }
+    .Bp2{
+        background-color: red;
+    }
+.Decisions{
+    padding: 1.5%;
+    text-decoration: underline;
+    font-size: 1.8rem;
+    display: inline;
+    text-align: center;
+    margin-left: 3%;
+}
+
+.Video{
+    margin-left: 30%;
+}
